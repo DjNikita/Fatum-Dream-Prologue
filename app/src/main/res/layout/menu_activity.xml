@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#2F4F4F"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:text="@string/Title"
+        android:textSize="59sp"
+        android:background="@drawable/castle"
+        android:textColor="#FF00"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/bm1"
+        android:onClick="Start"
+        android:textColor="#FF00"
+        android:background="#000000"
+        android:text="@string/MenuButton1"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="Authors"
+        android:id="@+id/bm2"
+        android:textColor="#FFFFFF"
+        android:background="#000000"
+        android:text="@string/MenuButton2"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/bm3"
+        android:onClick="Exit"
+        android:textColor="#FFFFFF"
+        android:background="#000000"
+        android:text="@string/MenuButton3"/>
+
+</LinearLayout>

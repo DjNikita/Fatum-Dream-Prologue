@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">FatumDream</string>
+        <string name="Lal">Главный разработчик: Никита Сергеевич http://vk.com/newdjnikita.
+
+        Активные тОстеры(пока): Екатерина Хомяк(captain-hamster),
+        Стас Кулаков,
+        Сергей Чамкин,
+        Никита Шляхов.
+
+        Художник: Таня Китова http://vk.com/banyabell.
+
+        И особенная благодарность "пинку" для разработки - Мире Карлаш и Екатерине Хомяк.
+
+        Преподаватель: Дмитрий Яценко.
+
+        Спасибо в участии фиг знает какого теста этой недоделанной игры!</string>
+    <string name="Introduction">Добро пожаловать в Fatum Dream. Предупрежу - моя игра не любит людей, действующих не по <b>правилам!</b></string>
+    <string name="GameButton1">(1)</string>
+    <string name="GameButton2">(2)</string>
+    <string name="GameButton3">Вперед</string>
+    <string name="LandHint">Поверните устройство для игры!</string>
+    <string name="ButtonAuthors">Вернуться в меню</string>
+    <string name="Title">FATUM DREAM</string>
+    <string name="MenuButton1">Начать игру</string>
+    <string name="MenuButton2">Авторы</string>
+    <string name="MenuButton3">Выход</string>
+    <string name="TitleName">Пролог</string>
+    <string name="ButtonName">Начать</string>
+    <string name="Name">Мистический замок</string>
+
+    <string name="GameText1">обман вокруг нас</string>
+    <string name="Pause">||</string>
+    <string name="PauseMenuTitle">Игра на паузе</string>
+    <string name="ButtonPause1">Вернуться в игру</string>
+    <string name="ButtonPause2">Сохраниться</string>
+    <string name="ButtonPause3">В меню</string>
+    <string name="ButtonBack"><![CDATA[<----]]></string>
+    <string name="Have_Sharf"><b>Теперь у вас есть шарф!</b></string>
+    <string name="NotHave_Sharf"><b>У вас нет шарфа. Ага.</b></string>
+
+
+</resources>

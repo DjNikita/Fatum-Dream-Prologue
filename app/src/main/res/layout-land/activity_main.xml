@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" tools:context=".StartActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:id="@+id/linearlayout"
+        android:background="@drawable/castle">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:id="@+id/imageview"
+            android:src="@drawable/ally"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:id="@+id/imageview2"
+            android:src="@drawable/tomas"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000">
+            <TextView
+                android:textSize="17sp"
+                android:text="@string/Introduction"
+                android:textColor="#FFFFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text"/>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/button_back"
+            android:background="#D3D3D3"
+            android:text="@string/ButtonBack"
+            android:textColor="#000"
+            android:visibility="visible"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:text="@string/GameButton1"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:id="@+id/button"
+            android:textColor="#000"
+            android:background="#D3D3D3"
+            android:visibility="invisible"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:text="@string/GameButton2"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:id="@+id/button2"
+            android:textColor="#000"
+            android:background="#D3D3D3"
+            android:visibility="invisible"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:text="@string/GameButton3"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textColor="#000"
+            android:background="#D3D3D3"
+            android:id="@+id/b3" />
+
+    </LinearLayout>
+</LinearLayout>
